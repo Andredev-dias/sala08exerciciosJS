@@ -114,7 +114,7 @@ nav{
     align-items: center;
     justify-content: center;
     gap: 20px;
-    animation: fromTop 1s ease-in-out;
+    animation: fromTop 500ms ease-in-out;
 }
 
 @keyframes fromTop {
