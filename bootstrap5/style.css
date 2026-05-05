@@ -17,6 +17,7 @@ nav{
     justify-content: center;
     gap: 20px;
     animation: fromTop 500ms ease-in-out;
+    z-index: 999;
 }
 
 @keyframes fromTop {
@@ -59,4 +60,8 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.list-group{
+    width: 400px;
 }
